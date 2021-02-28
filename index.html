@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Smart Watch</title>
+	<link rel="stylesheet" href="./css/fonts.css" type="text/css" media="all">
+	<link rel="stylesheet" href="./css/owl.carousel.css" type="text/css" media="all">
+	<link rel="stylesheet" href="./css/owl.theme.default.css" type="text/css" media="all">
+	<link rel="stylesheet" href="./css/style.min.css" type="text/css" media="all">
+<body>
+	
+	<header class="page_header">
+		<div class="header_menu">
+			<div class="mobile_menu_block">
+				<button class="mobile_menu_btn" type="button">
+					<svg viewBox="0 0 512 512"><path d="M176.792 0H59.208C26.56 0 0 26.56 0 59.208v117.584C0 209.44 26.56 236 59.208 236h117.584C209.44 236 236 209.44 236 176.792V59.208C236 26.56 209.44 0 176.792 0zM196 176.792c0 10.6-8.617 19.208-19.208 19.208H59.208C48.617 196 40 187.383 40 176.792V59.208C40 48.617 48.617 40 59.208 40h117.584C187.383 40 196 48.617 196 59.208v117.584zM452 0H336c-33.084 0-60 26.916-60 60v116c0 33.084 26.916 60 60 60h116c33.084 0 60-26.916 60-60V60c0-33.084-26.916-60-60-60zm20 176c0 11.028-8.972 20-20 20H336c-11.028 0-20-8.972-20-20V60c0-11.028 8.972-20 20-20h116c11.028 0 20 8.972 20 20v116zM176.792 276H59.208C26.56 276 0 302.56 0 335.208v117.584C0 485.44 26.56 512 59.208 512h117.584C209.44 512 236 485.44 236 452.792V335.208C236 302.56 209.44 276 176.792 276zM196 452.792c0 10.6-8.617 19.208-19.208 19.208H59.208C48.617 472 40 463.383 40 452.792V335.208C40 324.617 48.617 316 59.208 316h117.584c10.6 0 19.208 8.617 19.208 19.208v117.584zM452 276H336c-33.084 0-60 26.916-60 60v116c0 33.084 26.916 60 60 60h116c33.084 0 60-26.916 60-60V336c0-33.084-26.916-60-60-60zm20 176c0 11.028-8.972 20-20 20H336c-11.028 0-20-8.972-20-20V336c0-11.028 8.972-20 20-20h116c11.028 0 20 8.972 20 20v116z"/>
+					</svg>
+				</button>
+
+				<div class="overlay">
+					<div class="mobile_menu">
+						<div class="mobile_menu_control">
+							<div class="logo mobile_logo">
+								<img class="logo_img" src="./img/icon/logo.png" alt="logo">
+							</div>
+
+							<button class="close_mob_menu" type="button">
+								<svg viewBox="0 0 610 610"><path d="M397.503 306.011L593.08 110.434c25.27-25.269 25.27-66.213 0-91.482s-66.213-25.269-91.481 0L306.022 214.551 110.445 18.974c-25.269-25.269-66.213-25.269-91.482 0s-25.269 66.213 0 91.482L214.54 306.033 18.963 501.61c-25.269 25.269-25.269 66.213 0 91.481s66.213 25.27 91.482 0l195.577-195.576 195.577 195.576c25.269 25.27 66.213 25.27 91.481 0s25.27-66.213 0-91.481L397.503 306.011z"/></svg>
+							</button>
+						</div>
+
+						<ul class="menu_list_mob">
+							<li class="mob_list_item"><a class="mob_list_link" href="#"> Home</a></li>
+							<li class="mob_list_item"><a class="mob_list_link" href="#features_anchor"> Features</a></li>
+							<li class="mob_list_item"><a class="mob_list_link" href="#product_anchor"> Product</a></li>
+							<li class="mob_list_item"><a class="mob_list_link" href="#reviews_anchor"> Reviews</a></li>
+							<li class="mob_list_item"><a class="mob_list_link" href="#blog_anchor"> Blog</a></li>
+							<li class="mob_list_item"><a class="mob_list_link" href="#about_anchor"> About</a></li>
+							<li class="mob_list_item"><a class="mob_list_link" href="#contact_anchor"> Contact</a></li>
+						</ul>
+						<ul class="mobile_social">
+							<li class="mobile_social_item">
+								<a class="mob_social_link" href="#">
+									<img src="./img/icon/facebook.svg" alt="facebook">
+								</a>
+							</li>
+							<li class="mobile_social_item">
+								<a class="mob_social_link" href="#">
+									<img src="./img/icon/twitter.svg" alt="twitter">
+								</a>
+							</li>
+							<li class="mobile_social_item">
+								<a class="mob_social_link" href="#">
+									<img src="./img/icon/instagram.svg" alt="instagram">
+								</a>
+							</li>
+							<li class="mobile_social_item">
+								<a class="mob_social_link" href="#">
+									<img src="./img/icon/youtube.svg" alt="youtube">
+								</a>
+							</li>
+							<li class="mobile_social_item">
+								<a class="mob_social_link" href="#">
+									<img src="./img/icon/reddit.svg" alt="reddit">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="logo">
+				<img class="logo_img" src="./img/icon/logo.png" alt="logo">
+			</div>
+			<nav class="menu">
+				<ul class="menu_list">
+					<li class="menu_list_item"><a class="menu_list_link" href="#"> Home</a></li>
+					<li class="menu_list_item"><a class="menu_list_link" href="#features_anchor"> Features</a></li>
+					<li class="menu_list_item"><a class="menu_list_link" href="#product_anchor"> Product</a></li>
+					<li class="menu_list_item"><a class="menu_list_link" href="#reviews_anchor"> Reviews</a></li>
+					<li class="menu_list_item"><a class="menu_list_link" href="#blog_anchor"> Blog</a></li>
+					<li class="menu_list_item"><a class="menu_list_link" href="#about_anchor"> About</a></li>
+					<li class="menu_list_item"><a class="menu_list_link" href="#contact_anchor"> Contact</a></li>
+				</ul>
+			</nav>
+			<ul class="user_panel">
+				<li class="user_panel_item">
+					<a href="#app_anchor" class="user_panel_link">
+						<svg class="user_panel_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M299.29 255.5h-86.58c-85.14 0-154.42 69.27-154.42 154.42V512h395.42V409.92c0-85.15-69.28-154.42-154.42-154.42zM88.29 482v-72.08c0-68.61 55.82-124.42 124.42-124.42h86.58c68.6 0 124.42 55.81 124.42 124.42V482H88.29zM256 0c-65.84 0-119.41 53.57-119.41 119.41S190.16 238.82 256 238.82s119.41-53.57 119.41-119.41S321.84 0 256 0zm0 208.82c-49.3 0-89.41-40.11-89.41-89.41S206.7 30 256 30s89.41 40.11 89.41 89.41-40.11 89.41-89.41 89.41z"/>
+						</svg>
+					</a>
+				</li>
+				<li class="user_panel_item">
+					<a href="#" class="user_panel_link">
+						<svg class="user_panel_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M443.188 442.208L415.956 142.56c-.768-8.256-7.68-14.56-15.968-14.56h-48V96c0-25.728-9.952-49.888-28.032-67.968S281.716 0 255.988 0c-52.928 0-96 43.072-96 96v32h-48c-8.288 0-15.2 6.304-15.936 14.56L68.82 442.208c-1.632 17.856 4.384 35.712 16.48 48.96S114.612 512 132.564 512h246.88c17.952 0 35.168-7.584 47.264-20.832s18.08-31.104 16.48-48.96zM191.988 96c0-35.296 28.704-64 64-64 17.184 0 33.28 6.624 45.344 18.656S319.988 78.816 319.988 96v32h-128V96zM403.06 469.6c-6.144 6.688-14.528 10.4-23.648 10.4H132.564c-9.088 0-17.504-3.712-23.616-10.432-6.144-6.72-9.056-15.392-8.224-24.48L126.612 160h33.376v48a16.01 16.01 0 0016 16 16.01 16.01 0 0016-16v-48h128v48a16.01 16.01 0 0016 16 16.01 16.01 0 0016-16v-48h33.376l25.92 285.12c.832 9.056-2.08 17.76-8.224 24.48z"/>
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="header_content_wrap">
+			<div class="header_content">
+				<div class="header_title_block">
+					<p class="header_title_desc">smartwatch of the future</p>
+					<h1 class="header_title">watch</h1>
+					<p class="header_subtitle">
+						The best smartwatches money can buy right now if you have an Android phone or iPhone.
+					</p>
+					<a class="title_btn" href="#app_anchor">Order Now</a>
+				</div>
+				<div class="header_img">
+					<img src="./img/background/watch-101.png" alt="watch">
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- section about -->
+
+	<div class="about_wrap">
+		<div class="about_block" id="about_anchor">
+			<div class="about_content">
+				<p class="about_subtitle">About</p>
+				<h2 class="about_title">What is a smart watch</h2>
+				<p class="about_text">The name smart watch comes from the English Smart Watch. Unlike classic mechanical and electronic ones, they connect to a smartphone, use touch screens, offering the user all the necessary information that is loaded from a mobile device. In other words, it's a more affordable dub of your smartphone.</p>
+
+				<button class="video_btn" type="button">Video Detail
+					<svg class="video_btn_svg" viewBox="0 0 512 512"><path d="M256 0C114.619 0 0 114.614 0 256s114.619 256 256 256c141.389 0 256-114.614 256-256S397.389 0 256 0zm0 460.8c-112.924 0-204.8-91.871-204.8-204.8S143.076 51.2 256 51.2 460.8 143.071 460.8 256 368.929 460.8 256 460.8zm-62.07-276.48c0-19.709 13.97-27.776 31.04-17.92l124.15 71.68c17.07 9.856 17.07 25.984 0 35.84L224.97 345.6c-17.07 9.856-31.04 1.789-31.04-17.92V184.32z"/>
+					</svg>
+				</button>
+			</div>
+		</div>
+
+		<ul class="features_block">
+			<li class="features_card">
+				<div class="features_card_img">
+					<img src="./img/icon/delivery.svg" alt="icon">
+				</div>
+				<p class="features_card_text">Free shipping Worldwide</p>
+ 			</li>
+			<li class="features_card">
+				<div class="features_card_img">
+					<img src="./img/icon/charges.svg" alt="icon">
+				</div>
+				<p class="features_card_text">Money Back Guaranteed</p>
+			</li>
+			<li class="features_card">
+				<div class="features_card_img">
+					<img src="./img/icon/smartphone.svg" alt="icon">
+				</div>
+				<p class="features_card_text">Secured Online Payment</p>
+			</li>
+		</ul>
+
+		<div class="container">
+			<div class="features" id="features_anchor">
+				<div class="overall_title_block">
+					<p class="overall_subtitle">Features</p>
+					<h2 class="overall_title">Things you are getting</h2>
+				</div>
+
+				<ul class="features_list">
+					<li class="features_list_item features_item_open">
+						<h3 class="features_item_title">SD Card</h3>
+						<p class="features_item_text">The name smart watch comes from the English Smart Watch. Unlike classic mechanical and electronic ones, they connect to a smartphone and use touch screens.</p>
+					</li>
+					<li class="features_list_item">
+						<h3 class="features_item_title">Music Player</h3>
+						<p class="features_item_text">The name smart watch comes from the English Smart Watch. Unlike classic mechanical and electronic ones, they connect to a smartphone and use touch screens.</p>
+					</li>
+					<li class="features_list_item">
+						<h3 class="features_item_title">Messages</h3>
+						<p class="features_item_text">The name smart watch comes from the English Smart Watch. Unlike classic mechanical and electronic ones, they connect to a smartphone and use touch screens.</p>
+					</li>
+					<li class="features_list_item">
+						<h3 class="features_item_title">Bluetooth</h3>
+						<p class="features_item_text">The name smart watch comes from the English Smart Watch. Unlike classic mechanical and electronic ones, they connect to a smartphone and use touch screens.</p>
+					</li>
+					<li class="features_list_item">
+						<h3 class="features_item_title">Calendar Events</h3>
+						<p class="features_item_text">The name smart watch comes from the English Smart Watch. Unlike classic mechanical and electronic ones, they connect to a smartphone and use touch screens.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- section reviews -->
+
+	<div class="reviews" id="reviews_anchor">
+		<div class="container">
+			<div class="overall_title_block">
+				<p class="overall_subtitle">Reviews</p>
+				<h2 class="overall_title">reviews from <br>all over the world</h2>
+			</div>
+			<div class="reviews_slider_wrap">
+				<button class="reviews_left_btn" type="button">
+					<svg viewBox="0 0 490.667 490.667"><path d="M245.333 0C109.839 0 0 109.839 0 245.333s109.839 245.333 245.333 245.333 245.333-109.839 245.333-245.333C490.514 109.903 380.764.153 245.333 0z" fill="#009688"/><path d="M290.133 104.533c-19.139-18.289-49.277-18.289-68.416 0-18.893 18.881-18.902 49.503-.021 68.395l19.221 19.221H117.333C87.878 192.149 64 216.027 64 245.483s23.878 53.333 53.333 53.333h123.584l-19.2 19.2c-17.522 20.175-15.371 50.734 4.804 68.257 18.259 15.858 45.423 15.799 63.612-.139l118.251-118.251c12.492-12.496 12.492-32.752 0-45.248L290.133 104.533z" fill="#fafafa"/>
+					</svg>
+				</button>
+			<div class="reviews_slider owl-carousel">
+				<div class="reviews_slider_item">
+					<div class="reviews_author">
+						<div class="reviews_author_img">
+							<img src="./img/background/face-4.jpg" alt="">
+						</div>
+						<h3 class="reviews_slider_title">Drake Collins</h3>
+					</div>
+					<p class="reviews_slider_subtitle">AI Engineer <span class="vertical_dash"> | </span> TeamExio inc.</p>
+					<p class="reviews_slider_text">Chief expert and consultant for fast-paced smartwatches and fitness trackers. Always strives for new knowledge and professional development in the field of high technologies.</p>
+				</div>
+				<div class="reviews_slider_item">
+					<div class="reviews_author">
+						<div class="reviews_author_img">
+							<img src="./img/background/face-6.jpg" alt="">
+						</div>
+						<h3 class="reviews_slider_title">Alvaro Martin</h3>
+					</div>
+					<p class="reviews_slider_subtitle">Head <span class="vertical_dash"> | </span> of Sale</p>
+					<p class="reviews_slider_text">Chief expert and consultant for fast-paced smartwatches and fitness trackers. Always strives for new knowledge and professional development in the field of high technologies.</p>
+				</div>
+				<div class="reviews_slider_item">
+					<div class="reviews_author">
+						<div class="reviews_author_img">
+							<img src="./img/background/face-1.jpg" alt="">
+						</div>
+						<h3 class="reviews_slider_title">Sarah Jenifer</h3>
+					</div>
+					<p class="reviews_slider_subtitle">Founder</p>
+					<p class="reviews_slider_text">Chief expert and consultant for fast-paced smartwatches and fitness trackers. Always strives for new knowledge and professional development in the field of high technologies.</p>
+				</div>
+				<div class="reviews_slider_item">
+					<div class="reviews_author">
+						<div class="reviews_author_img">
+							<img src="./img/background/face-2.jpg" alt="">
+						</div>
+						<h3 class="reviews_slider_title">Paula Neilson</h3>
+					</div>
+					<p class="reviews_slider_subtitle">AI Engineer <span class="vertical_dash"> | </span> TeamExio inc.</p>
+					<p class="reviews_slider_text">Chief expert and consultant for fast-paced smartwatches and fitness trackers. Always strives for new knowledge and professional development in the field of high technologies.</p>
+				</div>
+			</div>
+			<button class="reviews_right_btn" type="button">
+				<svg viewBox="0 0 490.667 490.667"><path d="M245.333 0C109.839 0 0 109.839 0 245.333s109.839 245.333 245.333 245.333 245.333-109.839 245.333-245.333C490.514 109.903 380.764.153 245.333 0z" fill="#009688"/><path d="M290.133 104.533c-19.139-18.289-49.277-18.289-68.416 0-18.893 18.881-18.902 49.503-.021 68.395l19.221 19.221H117.333C87.878 192.149 64 216.027 64 245.483s23.878 53.333 53.333 53.333h123.584l-19.2 19.2c-17.522 20.175-15.371 50.734 4.804 68.257 18.259 15.858 45.423 15.799 63.612-.139l118.251-118.251c12.492-12.496 12.492-32.752 0-45.248L290.133 104.533z" fill="#fafafa"/>
+				</svg>
+			</button>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- section products -->
+
+	<div class="products" id="product_anchor">
+		<div class="container">
+			<div class="overall_title_block">
+				<p class="overall_subtitle">Products</p>
+				<h2 class="overall_title">most popular</h2>
+			</div>
+			<div class="shadow">
+				<div class="left_shadow">
+					<button class="btnPrev" type="button">
+						<svg viewBox="0 0 490.667 490.667"><path d="M245.333 0C109.839 0 0 109.839 0 245.333s109.839 245.333 245.333 245.333 245.333-109.839 245.333-245.333C490.514 109.903 380.764.153 245.333 0z" fill="#009688"/><path d="M290.133 104.533c-19.139-18.289-49.277-18.289-68.416 0-18.893 18.881-18.902 49.503-.021 68.395l19.221 19.221H117.333C87.878 192.149 64 216.027 64 245.483s23.878 53.333 53.333 53.333h123.584l-19.2 19.2c-17.522 20.175-15.371 50.734 4.804 68.257 18.259 15.858 45.423 15.799 63.612-.139l118.251-118.251c12.492-12.496 12.492-32.752 0-45.248L290.133 104.533z" fill="#fafafa"/>
+						</svg>
+					</button>
+				</div>
+				<div class="products_slider owl-carousel">
+					<a class="products_slider_item" href="#">
+						<div class="products_item_img">
+							<img src="./img/products/product-1.jpg" alt="picture of products">
+						</div>
+						<h3 class="products_item_name">Smart Watch QW34S</h3>
+						<p class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+						<p class="price">
+							<span class="new_price">$ 146</span>
+							<span class="old_price"><del> $191</del></span>
+						</p>
+						<div class="over_block">
+							<div class="over_block_btn">View Item</div>
+							<div class="over_block_list">
+								<div class="over_block_item_btn over_block_card">
+									<img src="./img/icon/credit-card.svg" alt="icon">
+								</div>
+								<div class="over_block_item_btn over_block_heart">
+									<img src="./img/icon/heart.svg" alt="icon">
+								</div>
+								<div class="over_block_item_btn over_block_basket">
+									<img src="./img/icon/basket.svg" alt="icon">
+								</div>
+							</div>
+						</div>
+					</a>
+					<a class="products_slider_item" href="#">
+						<div class="products_item_img">
+							<img src="./img/products/product-1.jpg" alt="picture of products">
+						</div>
+						<h3 class="products_item_name">Smart Watch KLL18</h3>
+						<p class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+						<p class="price">
+							<span class="new_price">$ 200</span>
+							<span class="old_price"><del> $231</del></span>
+						</p>
+						<div class="over_block">
+							<div class="over_block_btn">View Item</div>
+							<div class="over_block_list">
+								<div class="over_block_item_btn over_block_card">
+									<img src="./img/icon/credit-card.svg" alt="icon">
+								</div>
+								<div class="over_block_item_btn over_block_heart">
+									<img src="./img/icon/heart.svg" alt="icon">
+								</div>
+								<div class="over_block_item_btn over_block_basket">
+									<img src="./img/icon/basket.svg" alt="icon">
+								</div>
+							</div>
+						</div>
+					</a>
+					<a class="products_slider_item" href="#">
+						<div class="products_item_img">
+							<img src="./img/products/product-1.jpg" alt="picture of products">
+						</div>
+						<h3 class="products_item_name">Smart Watch RRZ21</h3>
+						<p class="rating">&#9733;&#9733;&#9733;&#9733;</p>
+						<p class="price">
+							<span class="new_price">$ 543</span>
+							<span class="old_price"><del> $874</del></span>
+						</p>
+						<div class="over_block">
+							<div class="over_block_btn">View Item</div>
+							<div class="over_block_list">
+								<div class="over_block_item_btn over_block_card">
+									<img src="./img/icon/credit-card.svg" alt="icon">
+								</div>
+								<div class="over_block_item_btn over_block_heart">
+									<img src="./img/icon/heart.svg" alt="icon">
+								</div>
+								<div class="over_block_item_btn over_block_basket">
+									<img src="./img/icon/basket.svg" alt="icon">
+								</div>
+							</div>
+						</div>
+					</a>
+					<a class="products_slider_item" href="#">
+						<div class="products_item_img">
+							<img src="./img/products/product-1.jpg" alt="picture of products">
+						</div>
+						<h3 class="products_item_name">Smart Watch AAQ</h3>
+						<p class="rating">&#9733;&#9733;</p>
+						<p class="price">
+							<span class="new_price">$ 217</span>
+							<span class="old_price"><del> $396</del></span>
+						</p>
+						<div class="over_block">
+							<div class="over_block_btn">View Item</div>
+							<div class="over_block_list">
+								<div class="over_block_item_btn over_block_card">
+									<img src="./img/icon/credit-card.svg" alt="icon">
+								</div>
+								<div class="over_block_item_btn over_block_heart">
+									<img src="./img/icon/heart.svg" alt="icon">
+								</div>
+								<div class="over_block_item_btn over_block_basket">
+									<img src="./img/icon/basket.svg" alt="icon">
+								</div>
+							</div>
+						</div>
+					</a>
+					<a class="products_slider_item" href="#">
+						<div class="products_item_img">
+							<img src="./img/products/product-1.jpg" alt="picture of products">
+						</div>
+						<h3 class="products_item_name">Smart Watch OOT</h3>
+						<p class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+						<p class="price">
+							<span class="new_price">$ 320</span>
+							<span class="old_price"><del> $345</del></span>
+						</p>
+						<div class="over_block">
+							<div class="over_block_btn">View Item</div>
+							<div class="over_block_list">
+								<div class="over_block_item_btn over_block_card">
+									<img src="./img/icon/credit-card.svg" alt="icon">
+								</div>
+								<div class="over_block_item_btn over_block_heart">
+									<img src="./img/icon/heart.svg" alt="icon">
+								</div>
+								<div class="over_block_item_btn over_block_basket">
+									<img src="./img/icon/basket.svg" alt="icon">
+								</div>
+							</div>
+						</div>
+					</a>
+					<a class="products_slider_item" href="#">
+						<div class="products_item_img">
+							<img src="./img/products/product-1.jpg" alt="picture of products">
+						</div>
+						<h3 class="products_item_name">Smart Watch YYYSS</h3>
+						<p class="rating">&#9733;&#9733;&#9733;</p>
+						<p class="price">
+							<span class="new_price">$ 232</span>
+							<span class="old_price"><del> $254</del></span>
+						</p>
+						<div class="over_block">
+							<div class="over_block_btn">View Item</div>
+							<div class="over_block_list">
+								<div class="over_block_item_btn over_block_card">
+									<img src="./img/icon/credit-card.svg" alt="icon">
+								</div>
+								<div class="over_block_item_btn over_block_heart">
+									<img src="./img/icon/heart.svg" alt="icon">
+								</div>
+								<div class="over_block_item_btn over_block_basket">
+									<img src="./img/icon/basket.svg" alt="icon">
+								</div>
+							</div>
+						</div>
+					</a>
+					<a class="products_slider_item" href="#">
+						<div class="products_item_img">
+							<img src="./img/products/product-1.jpg" alt="picture of products">
+						</div>
+						<h3 class="products_item_name">Smart Watch 873WWS</h3>
+						<p class="rating">&#9733;&#9733;&#9733;&#9733;</p>
+						<p class="price">
+							<span class="new_price">$ 425</span>
+							<span class="old_price"><del> $484</del></span>
+						</p>
+						<div class="over_block">
+							<div class="over_block_btn">View Item</div>
+							<div class="over_block_list">
+								<div class="over_block_item_btn over_block_card">
+									<img src="./img/icon/credit-card.svg" alt="icon">
+								</div>
+								<div class="over_block_item_btn over_block_heart">
+									<img src="./img/icon/heart.svg" alt="icon">
+								</div>
+								<div class="over_block_item_btn over_block_basket">
+									<img src="./img/icon/basket.svg" alt="icon">
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="right_shadow">
+					<button class="btnNext" type="button">
+						<svg viewBox="0 0 490.667 490.667"><path d="M245.333 0C109.839 0 0 109.839 0 245.333s109.839 245.333 245.333 245.333 245.333-109.839 245.333-245.333C490.514 109.903 380.764.153 245.333 0z" fill="#009688"/><path d="M290.133 104.533c-19.139-18.289-49.277-18.289-68.416 0-18.893 18.881-18.902 49.503-.021 68.395l19.221 19.221H117.333C87.878 192.149 64 216.027 64 245.483s23.878 53.333 53.333 53.333h123.584l-19.2 19.2c-17.522 20.175-15.371 50.734 4.804 68.257 18.259 15.858 45.423 15.799 63.612-.139l118.251-118.251c12.492-12.496 12.492-32.752 0-45.248L290.133 104.533z" fill="#fafafa"/>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div> 
+
+	<!-- section of blog -->
+
+	<div class="blog_page" id="blog_anchor">
+		<div class="container">
+			<div class="overall_title_block">
+				<p class="overall_subtitle">Blog</p>
+				<h2 class="overall_title">read our news</h2>
+			</div>
+
+			<div class="blog_slider_wrap">
+				<button class="blog_prev_btn" type="button">
+					<svg viewBox="0 0 490.667 490.667"><path d="M245.333 0C109.839 0 0 109.839 0 245.333s109.839 245.333 245.333 245.333 245.333-109.839 245.333-245.333C490.514 109.903 380.764.153 245.333 0z" fill="#009688"/><path d="M290.133 104.533c-19.139-18.289-49.277-18.289-68.416 0-18.893 18.881-18.902 49.503-.021 68.395l19.221 19.221H117.333C87.878 192.149 64 216.027 64 245.483s23.878 53.333 53.333 53.333h123.584l-19.2 19.2c-17.522 20.175-15.371 50.734 4.804 68.257 18.259 15.858 45.423 15.799 63.612-.139l118.251-118.251c12.492-12.496 12.492-32.752 0-45.248L290.133 104.533z" fill="#fafafa"/>
+					</svg>
+				</button>
+				<div class="blog_slider owl-carousel">
+					<div class="blog_slider_item">
+						<div class="blog_slider_img">
+							<img src="./img/background/blog1.jpg" alt="pictures from section blog">
+						</div>
+						<div class="blog_slider_item_content">
+							<h3 class="blog_card_title">Guided walking workouts for Apple Watch spotted in iOS 14.4 beta code</h3>
+							<h4 class="blog_card_author">
+								<span class="blog_author_img">
+									<img src="./img/background/face-1.jpg" alt="author image">
+								</span>
+								Britta O'Boyle</h4>
+							<p class="blog_card_text">Apple's beta for an upcoming iOS 14.4 software update reportedly feature a new setting for Apple Watch users. And it suggests guided walking workouts are possibly coming to the Apple Fitness+ service.</p>
+						</div>
+					</div>
+					<div class="blog_slider_item">
+						<div class="blog_slider_img">
+							<img src="./img/background/blog2.jpg" alt="pictures from section blog">
+						</div>
+						<div class="blog_slider_item_content">
+							<h3 class="blog_card_title">Apple Watch tips and tricks: Hidden secrets of watchOS revealed</h3>
+							<h4 class="blog_card_author">
+								<span class="blog_author_img">
+									<img src="./img/background/face-2.jpg" alt="author image">
+								</span>
+								Amelia Rich</h4>
+							<p class="blog_card_text">For the most part, you should be able to work out the basics of your new Apple Watch, but Apple has included plenty of hidden gems to allow you to get even more out of it than you thought possible.</p>
+						</div>
+					</div>
+					<div class="blog_slider_item">
+						<div class="blog_slider_img">
+							<img src="./img/background/blog3.jpg" alt="pictures from section blog">
+						</div>
+						<div class="blog_slider_item_content">
+							<h3 class="blog_card_title">OnePlus confirms its first smartwatch is coming soon</h3>
+							<h4 class="blog_card_author">
+								<span class="blog_author_img">
+									<img src="./img/background/face-4.jpg" alt="author image">
+								</span>
+								Jason Matt</h4>
+							<p class="blog_card_text">After years of rumours, including increased speculation over the last few months, OnePlus' CEO Pete Lau has confirmed that the company is building its first wearable.</p>
+						</div>
+					</div>
+					<div class="blog_slider_item">
+						<div class="blog_slider_img">
+							<img src="./img/background/blog4.jpg" alt="pictures from section blog">
+						</div>
+						<div class="blog_slider_item_content">
+
+							<h3 class="blog_card_title">Garmin's Venu smartwatch has $100 saving on Green Monday</h3>
+							<h4 class="blog_card_author">
+								<span class="blog_author_img">
+									<img src="./img/background/face-5.jpg" alt="author image">
+								</span>
+								Howard Gary</h4>
+							<p class="blog_card_text">As with most deals, they don't last that long so if you've had your eye on the Garmin Venu smartwatch, now is a great time to buy it.The Garmin Venu smartwatch was the company's first smartwatch.</p>
+						</div>
+					</div>
+				</div>
+				<div class="blog_shadow">
+					<button class="blog_next_btn" type="button">
+						<svg viewBox="0 0 490.667 490.667"><path d="M245.333 0C109.839 0 0 109.839 0 245.333s109.839 245.333 245.333 245.333 245.333-109.839 245.333-245.333C490.514 109.903 380.764.153 245.333 0z" fill="#009688"/><path d="M290.133 104.533c-19.139-18.289-49.277-18.289-68.416 0-18.893 18.881-18.902 49.503-.021 68.395l19.221 19.221H117.333C87.878 192.149 64 216.027 64 245.483s23.878 53.333 53.333 53.333h123.584l-19.2 19.2c-17.522 20.175-15.371 50.734 4.804 68.257 18.259 15.858 45.423 15.799 63.612-.139l118.251-118.251c12.492-12.496 12.492-32.752 0-45.248L290.133 104.533z" fill="#fafafa"/>
+						</svg>
+					</button>
+				</div>
+			</div>
+			<div class="blog_read_more">Want to read more articles? 
+				<a class="blog_read_btn" href="#">Click Here</a>
+			</div>
+		</div>
+	</div>
+ 
+	<div class="subscribe">
+		<div class="container">
+			<div class="subscribe_block">
+				<div class="overall_title_block">
+					<p class="overall_subtitle">Subscribe</p>
+					<h2 class="overall_title">stay updated with us</h2>
+				</div>
+				<form class="form_subscribe">
+					<div class="form_subscribe_label">
+						<input class="form_subscribe_input" type="email" name="email" placeholder="Enter your email">
+						<button class="form_subscribe_btn" type="button">
+							<img src="./img/icon/telegram.svg" alt="picture">
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div> 
+
+
+	<!-- section app -->
+
+	<div class="app_block" id="app_anchor">
+		<div class="container">
+			<div class="app_block_inner">
+				<div class="overall_title_block app_block_title">
+					<p class="overall_subtitle">Download</p>
+					<h2 class="overall_title">get the smart app</h2>
+				</div>
+				<p class="app_text app_text_desc">As a rule, smart watches work in conjunction with the phone, connecting to it via Bluetooth. But can a smartwatch work without a phone? Yes they can. There are models based on the Android operating system that do not need to be connected to a mobile gadget. They independently collect data on physical activity, measure heart rate or track sleep, saving summaries to internal memory. </p>
+				<p class="app_text">
+					The information is then presented on the display or in the application the next time it is connected to the smartphone.
+				</p>
+
+				<div class="app_btn_block">
+					<a class="app_btn app_btn_google" href="#">
+						<div class="app_btn_img">
+							<img src="./img/icon/googleplay.svg" alt="google play">
+						</div>
+						<div class="app_btn_text">
+							<span class="app_btn_text_small">download from</span>
+							<span class="app_btn_text_large">Google Play</span>
+						</div>
+					</a>
+					<a class="app_btn app_btn_apple" href="#">
+						<div class="app_btn_img">
+							<img src="./img/icon/apple.svg" alt="google play">
+						</div>
+						<div class="app_btn_text">
+							<span class="app_btn_text_small">download from</span>
+							<span class="app_btn_text_large">Apple Store</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="contact_page" id="contact_anchor">
+		<div class="container">
+			<div class="contact_inner">
+				<form action="#" class="contact_form">
+					<div class="overall_title_block contact_form_title">
+						<p class="overall_subtitle">Contact</p>
+						<h2 class="overall_title">Get in Touch</h2>
+					</div>
+	
+					<input class="contact_form_input" type="text" name="name" placeholder="Enter Name" required>
+					<input class="contact_form_input" type="email" name="EmailForm" placeholder="Enter Email" required>
+					<input class="contact_form_input" type="text" name="subject" placeholder="Subject">
+					<textarea class="contact_form_message" name="message" placeholder="Write Your Message"></textarea>
+					<input class="contact_form_btn" type="submit" value="send">
+				</form>
+
+				<div class="contact_block">
+					<div class="contact_block_title">
+						<h3 class="contact_title">Our Contacts</h3>
+						<p class="contact_title_text">Our status as an official seller of the most popular brands allows us to offer you the best prices and the most complete range of products. It's easier to list the devices we don't have than the ones we sell.
+						</p>
+						<p class="contact_title_text">
+						Leave your message and contact details and our specialists will contact you as soon as possible to resolve your issue.
+						</p>
+					</div>
+
+					<div class="contact_block_info">
+						<h4 class="contact_info_title">Head Office</h4>
+						<ul class="contact_info_list">
+							<li class="contact_info_item">Werdstrasse 12a, 8004 Zürich,<br> Switzerland</li>
+							<li class="contact_info_item">
+								<span class="contact_info_tel">+4573 293 944</span>
+								<span class="contact_info_tel">+4573 122 234</span>
+							</li>
+							<li class="contact_info_item">support@watch.com</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- section footer -->
+
+	<footer class="footer_page">
+		<div class="container">
+			<div class="footer_content">
+				<div class="footer_logo">
+					<div class="footer_logo_img">
+						<img src="./img/icon/logo.png" alt="logo">
+					</div>
+				</div>
+				<div class="footer_social">
+					<div class="overall_title_block">
+						<p class="overall_subtitle footer_subtitle">Follow us on</p>
+					</div>
+					<ul class="footer_social_list">
+						<li class="footer_social_item">
+							<a class="footer_social_link" href="#"></a>
+						</li>
+						<li class="footer_social_item">
+							<a class="footer_social_link" href="#"></a>
+						</li>
+						<li class="footer_social_item">
+							<a class="footer_social_link" href="#"></a>
+						</li>
+						<li class="footer_social_item">
+							<a class="footer_social_link" href="#"></a>
+						</li>
+						<li class="footer_social_item">
+							<a class="footer_social_link" href="#"></a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer_contact">
+					<div class="overall_title_block">
+						<p class="overall_subtitle footer_subtitle">Contact us at</p>
+					</div>
+					<div class="footer_contact_inner">
+						<p class="footer_contact_item">Werdstrasse 12a, 8004 Zürich, Switzerland</p>
+						<p class="footer_contact_item">+4573 293 944, +4573 122 234</p>
+						<p class="footer_contact_item">support@watch.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="copyright">
+			<div class="container">
+				<div class="copyright_inner">
+					<p class="copyright_info">Copyright @ Watch 2020.All Rights Reserved.</p>
+					<ul class="copyright_links">
+						<li class="copyright_item_link">
+							<a class="copyright_link" href="#">Privacy Policy</a>
+						</li>
+						<li class="copyright_item_link">
+							<a class="copyright_link" href="#">Terms & Conditions</a>
+						</li>
+						<li class="copyright_item_link">
+							<a class="copyright_link" href="#">Shipping Information</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+<!-- button arrow_top -->
+
+	<div class="arrow_top">
+		<svg viewBox="0 0 512 512"><linearGradient gradientUnits="userSpaceOnUse" id="A" x1="0" x2="512" y1="256" y2="256"><stop offset="0" stop-color="#33b49d"/><stop offset="1" stop-color="#00a185"/></linearGradient><circle cx="256" cy="256" fill="url(#A)" r="256"/><linearGradient gradientUnits="userSpaceOnUse" id="B" x1="42.667" x2="469.333" y1="256.001" y2="256.001"><stop offset="0" stop-color="#00a185"/><stop offset="1" stop-color="#33b49d"/></linearGradient><path d="M256 469.334c-117.632 0-213.333-95.702-213.333-213.333S138.368 42.667 256 42.667s213.333 95.702 213.333 213.333S373.636 469.334 256 469.334z" fill="url(#B)"/><path opacity=".3" d="M248.499 159.501L144 264l104.499 104.499v-55.42H384v-98.157H248.499z"/><path fill="#fff" d="M240.499 151.501L136 256l104.499 104.499v-55.42H376v-98.157H240.499z"/>
+		</svg>
+	</div>
+
+	<!-- video container -->
+
+	<div class="overlay_video">
+		<video class="video_box" width="640" height="360" data-logo="./img/icon/logo.png" controls>
+			<source src="./video/video.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="./js/owl.carousel.min.js"></script><!-- https://owlcarousel2.github.io/OwlCarousel2/index.html -->
+	<script src="./js/jquery.video-extend.js"></script><!-- http://andchir.github.io/jquery-video-extend/ -->
+	<script src="./js/settingsSlide.js"></script>
+	<script src="./js/main.js"></script>
+	
+</body>
+</html>
